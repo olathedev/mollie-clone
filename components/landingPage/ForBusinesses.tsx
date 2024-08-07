@@ -31,6 +31,7 @@ const ForBusinesses = (props: Props) => {
                     <div className='grid grid-cols-3 space-y-2'>
                         {imageUrls.map((image, index) => (
                             <Image
+                                key={index}
                                 src={image}
                                 alt=""
                                 width={80}
@@ -81,6 +82,7 @@ const ForBusinesses = (props: Props) => {
                     <div className='grid grid-cols-3 space-y-2'>
                         {imageUrls.map((image, index) => (
                             <Image
+                                key={index}
                                 src={image}
                                 alt=""
                                 width={80}
