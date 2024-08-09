@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { Button } from '../ui/button'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
@@ -6,9 +7,12 @@ import Image from 'next/image'
 type Props = {}
 
 const HeroSection = (props: Props) => {
+
+   
+
     return (
-        <section className='w-full bg-black min-h-full '>
-            <div className="container mx-auto h-full px-28 pt-20 pb-10 flex flex-col gap-10 justify-center items-center ">
+        <section className='w-full bg-black min-h-full'>
+            <div className="container mx-auto h-full px-28 pt-32 pb-10 flex flex-col gap-10 justify-center items-center ">
                 <div className="container mx-auto px-20 flex flex-col space-y-4 items-center text-center text-white">
                     <p className='text-lg text-gray-700 font-semibold'>Powering growth for over <span className='text-white font-semibold'>200,000 businesses</span>  – from startups to enterprises.</p>
                     <h1 className='text-[55px] font-semibold leading-[54px]'>Effortless payments and money <br /> management for every business</h1>

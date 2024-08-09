@@ -8,7 +8,7 @@ type Props = {}
 
 const Navbar = (props: Props) => {
     return (
-        <nav className='sticky top-0 w-full py-3 bg-black px-24  z-20'>
+        <nav className='fixed top-0 w-full py-2 bg-black px-20  z-20'>
             <div className="container mx-auto flex items-center justify-between">
                 <div className="w-[60%] flex items-center justify-between">
                     <Link href="" className='text-white text-lg font-semibold'>mollie</Link>
